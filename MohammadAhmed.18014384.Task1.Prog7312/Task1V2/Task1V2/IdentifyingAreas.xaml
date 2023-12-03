@@ -1,0 +1,56 @@
+﻿<Window x:Class="Task1V2.IdentifyingAreas"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Task1V2"
+        mc:Ignorable="d"
+        Title="IdentifyingAreas" Height="665" Width="874">
+    <Grid Margin="0,1,0,-1">
+        <Button x:Name="QuesBtn" Content="Genrate Questions" HorizontalAlignment="Left" Margin="110,221,0,0" VerticalAlignment="Top" Width="120" Height="32" Click="Button_Click"/>
+        <Label Content="Identyfying Areas: Match Columns" HorizontalAlignment="Center" Margin="0,10,0,0" VerticalAlignment="Top" Width="284" FontSize="18" FontFamily="Franklin Gothic Demi"/>
+        <TextBox x:Name="C1" HorizontalAlignment="Left" Margin="65,271,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="211" IsEnabled="False"/>
+        <TextBox x:Name="C2" HorizontalAlignment="Left" Margin="65,286,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="211" IsEnabled="False"/>
+        <TextBox x:Name="C3" HorizontalAlignment="Left" Margin="65,301,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="211" IsEnabled="False"/>
+        <TextBox x:Name="C4" HorizontalAlignment="Left" Margin="65,316,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="211" IsEnabled="False"/>
+        <TextBox x:Name="C5" HorizontalAlignment="Left" Margin="65,331,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="211" IsEnabled="False"/>
+        <TextBox x:Name="C6" HorizontalAlignment="Left" Margin="65,346,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="211" IsEnabled="False"/>
+        <TextBox x:Name="C7" HorizontalAlignment="Left" Margin="65,361,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="211" IsEnabled="False"/>
+        <TextBox x:Name="C8" HorizontalAlignment="Left" Margin="65,376,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="211" IsEnabled="False"/>
+        <TextBox x:Name="C9" HorizontalAlignment="Left" Margin="65,391,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="211" IsEnabled="False"/>
+        <TextBox x:Name="C10" HorizontalAlignment="Left" Margin="319,271,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="212" IsEnabled="False"/>
+        <TextBox x:Name="C11" HorizontalAlignment="Left" Margin="319,286,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="212" IsEnabled="False"/>
+        <TextBox x:Name="C12" HorizontalAlignment="Left" Margin="319,301,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="212" IsEnabled="False"/>
+        <TextBox x:Name="C13" HorizontalAlignment="Left" Margin="319,316,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="212" IsEnabled="False"/>
+        <TextBox x:Name="C14" HorizontalAlignment="Left" Margin="319,331,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="212" IsEnabled="False"/>
+        <TextBox x:Name="C15" HorizontalAlignment="Left" Margin="319,346,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="212" IsEnabled="False"/>
+        <TextBox x:Name="C16" HorizontalAlignment="Left" Margin="319,361,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="212" IsEnabled="False"/>
+        <TextBox x:Name="C17" HorizontalAlignment="Left" Margin="319,376,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="212" IsEnabled="False"/>
+        <TextBox x:Name="C18" HorizontalAlignment="Left" Margin="319,391,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="212" IsEnabled="False"/>
+        <TextBox x:Name="C19" HorizontalAlignment="Left" Margin="319,406,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="212" IsEnabled="False"/>
+        <TextBox x:Name="C20" HorizontalAlignment="Left" Margin="319,421,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="212" IsEnabled="False"/>
+        <TextBox x:Name="C21" HorizontalAlignment="Left" Margin="319,436,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="212" IsEnabled="False"/>
+        <Button x:Name="AnsBtn" Content="Answers" HorizontalAlignment="Left" Margin="365,221,0,0" VerticalAlignment="Top" Width="120" Height="32" Click="Button_Click1"/>
+        <Label Content="Matched Answers" HorizontalAlignment="Left" Margin="637,221,0,0" VerticalAlignment="Top" Height="32" Width="109"/>
+        <TextBox x:Name="C22" HorizontalAlignment="Left" Margin="585,271,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="210" IsUndoEnabled="False"/>
+        <TextBox x:Name="C23" HorizontalAlignment="Left" Margin="585,286,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="210" IsUndoEnabled="False"/>
+        <TextBox x:Name="C24" HorizontalAlignment="Left" Margin="585,301,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="210" IsUndoEnabled="False"/>
+        <TextBox x:Name="C25" HorizontalAlignment="Left" Margin="585,316,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="210" IsUndoEnabled="False"/>
+        <TextBox x:Name="C26" HorizontalAlignment="Left" Margin="585,331,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="210" IsUndoEnabled="False"/>
+        <TextBox x:Name="C27" HorizontalAlignment="Left" Margin="585,346,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="210" IsUndoEnabled="False"/>
+        <TextBox x:Name="C28" HorizontalAlignment="Left" Margin="585,361,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="210" IsUndoEnabled="False"/>
+        <TextBox x:Name="C29" HorizontalAlignment="Left" Margin="585,376,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="210" IsUndoEnabled="False"/>
+        <TextBox x:Name="C30" HorizontalAlignment="Left" Margin="585,391,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="210" IsUndoEnabled="False"/>
+        <Border BorderThickness="1" BorderBrush="Black" HorizontalAlignment="Left" Height="305" Margin="551,185,0,0" VerticalAlignment="Top" Width="264">
+            <Button Content="Mark" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="84,255,0,0" Width="102" Height="29"/>
+        </Border>
+        <Border BorderThickness="1" BorderBrush="Black" HorizontalAlignment="Left" Height="305" Margin="292,185,0,0" VerticalAlignment="Top" Width="259"/>
+        <Border BorderThickness="1" BorderBrush="Black" HorizontalAlignment="Left" Height="305" Margin="44,185,0,0" VerticalAlignment="Top" Width="248"/>
+        <TextBlock HorizontalAlignment="Left" Margin="44,55,0,0" Text="1. First Generate the questions using the     'Generate Questions' Button" TextWrapping="Wrap" VerticalAlignment="Top" Width="216" Height="36"/>
+        <Label Content="Instructions:" HorizontalAlignment="Left" Margin="44,25,0,0" VerticalAlignment="Top" FontFamily="Dubai" FontWeight="Bold" Width="92"/>
+        <TextBlock HorizontalAlignment="Left" Margin="44,96,0,0" Text="2. Choose the 'Answer'  button to generate the answers to match" TextWrapping="Wrap" VerticalAlignment="Top" Width="216" Height="34"/>
+        <TextBlock HorizontalAlignment="Left" Margin="44,135,0,0" Text="3. Fill the final answers in the 'Mathed Answers' block and press the 'Mark' button" TextWrapping="Wrap" VerticalAlignment="Top" Width="248" Height="39"/>
+
+
+    </Grid>
+</Window>

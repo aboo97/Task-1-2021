@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net5.0-windows</TargetFramework>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="l3.jpg" />
+    <None Remove="librarian-scaled.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="l3.jpg" />
+    <Resource Include="librarian-scaled.jpg" />
+  </ItemGroup>
+
+</Project>

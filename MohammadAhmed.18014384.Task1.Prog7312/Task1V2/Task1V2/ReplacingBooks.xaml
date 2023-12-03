@@ -1,0 +1,47 @@
+﻿<Window x:Class="Task1V2.ReplacingBooks"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Task1V2"
+        mc:Ignorable="d"
+        Title="ReplacingBooks" Height="450" Width="800">
+    <Grid>
+        <Grid.Background>
+            <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                <GradientStop Color="Black" Offset="1"/>
+                <GradientStop Color="White"/>
+            </LinearGradientBrush>
+        </Grid.Background>
+        <Label  Content="Random Numbers" HorizontalAlignment="Left" Margin="30,27,0,0" VerticalAlignment="Top" Width="120" Background="#FF252725" Foreground="#FFDAD108" FontFamily="Arial Black"/>
+        <TextBox x:Name ="Tb1" HorizontalAlignment="Left" Margin="30,74,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="50" Height="20" IsEnabled="False" Background="#FFF2F3F2"/>
+        <TextBox x:Name ="Tb2" HorizontalAlignment="Left" Margin="100,74,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="50" Height="20" IsEnabled="False"/>
+        <TextBox x:Name ="Tb3" HorizontalAlignment="Left" Margin="170,74,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="50" Height="20" IsEnabled="False"/>
+        <TextBox x:Name ="Tb4" HorizontalAlignment="Left" Margin="240,74,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="50" Height="20" IsEnabled="False"/>
+        <TextBox x:Name ="Tb5" HorizontalAlignment="Left" Margin="310,74,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="50" Height="20" IsEnabled="False"/>
+        <TextBox x:Name ="Tb6" HorizontalAlignment="Left" Margin="380,74,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="50" Height="20" IsEnabled="False"/>
+        <TextBox x:Name ="Tb7" HorizontalAlignment="Left" Margin="450,74,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="50" Height="20" IsEnabled="False"/>
+        <TextBox x:Name ="Tb8" HorizontalAlignment="Left" Margin="520,74,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="50" Height="20" IsEnabled="False"/>
+        <TextBox x:Name ="Tb9" HorizontalAlignment="Left" Margin="590,74,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="50" Height="20" IsEnabled="False"/>
+        <TextBox x:Name ="Tb10" HorizontalAlignment="Left" Margin="660,74,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="50" Height="20" IsEnabled="False">
+            <TextBox.Style>
+                <Style/>
+            </TextBox.Style>
+        </TextBox>
+        <Button x:Name ="RnBtn" Content= "Generate" HorizontalAlignment="Left" Margin="30,120,0,0" VerticalAlignment="Top" Width="80" Click="RnBtn_Click" Background="#FF252725" Foreground="#FFDAD108" FontFamily="Arial Black" Height="25"/>
+        <Label  Content="Order the Numbers Generated" HorizontalAlignment="Left" Margin="30,194,0,0" VerticalAlignment="Top" Width="200" Background="#FF252725" Foreground="#FFDAD108" FontFamily="Arial Black"/>
+        <TextBox x:Name="Tb11" HorizontalAlignment="Left" Margin="30,240,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="50" Height="20"/>
+        <TextBox x:Name="Tb12" HorizontalAlignment="Left" Margin="100,240,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="50" Height="20"/>
+        <TextBox x:Name="Tb13" HorizontalAlignment="Left" Margin="170,240,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="50" Height="20"/>
+        <TextBox x:Name="Tb14" HorizontalAlignment="Left" Margin="240,240,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="50" Height="20"/>
+        <TextBox x:Name="Tb15" HorizontalAlignment="Left" Margin="310,240,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="50" Height="20"/>
+        <TextBox x:Name="Tb16" HorizontalAlignment="Left" Margin="380,240,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="50" Height="20"/>
+        <TextBox x:Name="Tb17" HorizontalAlignment="Left" Margin="450,240,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="50" Height="20"/>
+        <TextBox x:Name="Tb18" HorizontalAlignment="Left" Margin="520,240,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="50" Height="20"/>
+        <TextBox x:Name="Tb19" HorizontalAlignment="Left" Margin="590,240,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="50" Height="20"/>
+        <TextBox x:Name="Tb20" HorizontalAlignment="Left" Margin="660,240,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="50" Height="20"/>
+        <Button x:Name="SubBtn" Content="Submit" HorizontalAlignment="Left" Margin="30,353,0,0" VerticalAlignment="Top" Width="50" Height="25" Click="SubBtn_Click" Foreground="#FFDAD108" Background="#FF0F0F0F"/>
+        <Label x:Name="lbl1" HorizontalAlignment="Left" Margin="30,281,0,0" VerticalAlignment="Top" Foreground="#FFDAD108" Width="360" Background="#FF0F0F0F" />
+
+    </Grid>
+</Window>
